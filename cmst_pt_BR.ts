@@ -533,7 +533,7 @@
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default configuration method for all services is automatic or something like DHCP. This should be good enough for most typical usage, but if it is not this button will allow manual configuration of Ethernet and IP settings for the selected Service.&lt;/p&gt;&lt;p&gt;This button will be disabled if the service is provisioned via an external config file or if the service  is a hidden wifi service.  It is not possible to modify the properties of these services.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;O método de configuração padrão para todos os serviços é automático ou algo como DHCP. Isso deve ser bom o suficiente para o uso mais comum, mas se não for, este botão permitirá a configuração manual das configurações de Ethernet e do IP para o serviço selecionado.&lt;/p&gt;&lt;p&gt;Este botão será desligado se o serviço for fornecido por meio de um arquivo de configurações externo ou se o serviço for um serviço de rede sem fio (Wi-Fi) oculto. Não é possível modificar as propriedades desses serviços.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;O método de configuração padrão para todos os serviços é automático ou algo como DHCP. Isso deve ser bom o suficiente para o uso mais comum, mas se não for, este botão permitirá a configuração manual das configurações de rede com fio (Ethernet) e do IP para o serviço selecionado.&lt;/p&gt;&lt;p&gt;Este botão será desligado se o serviço for fornecido por meio de um arquivo de configurações externo ou se o serviço for um serviço de rede sem fio (Wi-Fi) oculto. Não é possível modificar as propriedades desses serviços.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/control_box/ui/controlbox.ui" line="585"/>
@@ -1123,7 +1123,7 @@
     <message>
         <location filename="../apps/cmstapp/code/control_box/ui/controlbox.ui" line="582"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The default configuration method for all services is automatic or something like DHCP. This should be good enough for most typical usage, but if it is not this button will allow manual configuration of Ethernet and IP settings for the selected Service.&lt;/p&gt;&lt;p&gt;This button will be disabled if the service is provisioned via an external config file or if the service is of type VPN. It is not possible to modify the properties of these services.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;O método de configuração padrão para todos os serviços é automático ou algo como DHCP. Isto deve ser bom o suficiente para a maioria dos usos mais comuns, mas se não for, este botão permitirá a configuração manual das configurações de Ethernet e de endereço de IP para o serviço selecionado.&lt;/p&gt;&lt;p&gt;Este botão será desativado se o serviço for fornecido por meio de um arquivo de configurações externo ou se o serviço for do tipo VPN. Não é possível modificar as propriedades destes serviços.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;O método de configuração padrão para todos os serviços é automático ou algo como DHCP. Isto deve ser bom o suficiente para a maioria dos usos mais comuns, mas se não for, este botão permitirá a configuração manual das configurações de rede com fio (Ethernet) e de endereço de IP para o serviço selecionado.&lt;/p&gt;&lt;p&gt;Este botão será desativado se o serviço for fornecido por meio de um arquivo de configurações externo ou se o serviço for do tipo VPN. Não é possível modificar as propriedades destes serviços.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/control_box/ui/controlbox.ui" line="640"/>
@@ -1534,7 +1534,7 @@ p, li { white-space: pre-wrap; }
         <source>Ethernet Connection
 </source>
         <comment>icon_tool_tip</comment>
-        <translation>Conexão de Ethernet
+        <translation>Conexão de Rede Com Fio (Ethernet)
 </translation>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../apps/cmstapp/code/control_box/controlbox.cpp" line="551"/>
         <source>&lt;center&gt;%1 is a program to interface with the Connman daemon and to provide a system tray control.&lt;br&gt;&lt;center&gt;Version &lt;b&gt;%2&lt;/b&gt;&lt;center&gt;Release date: %3&lt;center&gt;Copyright c %4&lt;center&gt;by&lt;center&gt;Andrew J. Bibb&lt;center&gt;Vermont, USA&lt;br&gt;&lt;center&gt;&lt;b&gt;Translations:&lt;/b&gt;&lt;center&gt;Jianfeng Zhang (Chinese)&lt;center&gt;sqozz (German)&lt;center&gt;Ilya Shestopalov (Russian)&lt;center&gt;Heimen Stoffels (Dutch)&lt;center&gt; Yaşar Çiv (Turkish)&lt;br&gt;&lt;center&gt;&lt;b&gt;Build Information:&lt;/b&gt;&lt;center&gt;Compiled using QT version %5&lt;center&gt;Connman version %6</source>
-        <translation>&lt;center&gt;O %1 é um programa para fazer a interface gráfica do serviço ConnMan e para fornecer um controle na bandeja do sistema operacional.&lt;br&gt;&lt;center&gt;Versão &lt;b&gt;%2&lt;/b&gt;&lt;center&gt;Data de lançamento: %3&lt;center&gt;Direitos de Autor (c) %4&lt;center&gt;by&lt;center&gt;Andrew J. Bibb&lt;center&gt;Vermont, EUA&lt;br&gt;&lt;center&gt;&lt;b&gt;Tradutores Voluntários:&lt;/b&gt;&lt;center&gt;Jianfeng Zhang (Chinês)&lt;center&gt;sqozz (Alemão)&lt;center&gt;Ilya Shestopalov (Russo)&lt;center&gt;Heimen Stoffels (Holandês)&lt;center&gt; Yaşar Çiv (Turco)&lt;center&gt; marcelocripe (Português do Brasil - Junho de 2022)&lt;br&gt;&lt;center&gt;&lt;b&gt;Informações da Versão:&lt;/b&gt;&lt;center&gt;Este programa foi compilado utilizando a versão&lt;center&gt;%5 do QT e a versão %6 do ConnMan</translation>
+        <translation>&lt;center&gt;O %1 é um programa para fazer a interface gráfica do serviço gerenciador de conexões de rede ConnMan e para fornecer um controle na bandeja do sistema operacional.&lt;br&gt;&lt;center&gt;Versão &lt;b&gt;%2&lt;/b&gt;&lt;center&gt;Data de lançamento: %3&lt;center&gt;Direitos de Autor (c) %4&lt;center&gt;by&lt;center&gt;Andrew J. Bibb&lt;center&gt;Vermont, EUA&lt;br&gt;&lt;center&gt;&lt;b&gt;Tradutores Voluntários:&lt;/b&gt;&lt;center&gt;Jianfeng Zhang (Chinês)&lt;center&gt;sqozz (Alemão)&lt;center&gt;Ilya Shestopalov (Russo)&lt;center&gt;Heimen Stoffels (Holandês)&lt;center&gt; Yaşar Çiv (Turco)&lt;center&gt; marcelocripe (Português do Brasil - Junho de 2022)&lt;br&gt;&lt;center&gt;&lt;b&gt;Informações da Versão:&lt;/b&gt;&lt;center&gt;Este programa foi compilado utilizando a versão&lt;center&gt;%5 do QT e a versão %6 do ConnMan</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/control_box/controlbox.cpp" line="592"/>
@@ -1889,7 +1889,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../apps/cmstapp/code/control_box/controlbox.cpp" line="1837"/>
         <source>&lt;br&gt;&lt;br&gt;&lt;b&gt;Ethernet&lt;/b&gt;&lt;br&gt;</source>
-        <translation>&lt;br&gt;&lt;br&gt;&lt;b&gt;Cabo (Ethernet)&lt;/b&gt;&lt;br&gt;</translation>
+        <translation>&lt;br&gt;&lt;br&gt;&lt;b&gt;Com Fio (Ethernet)&lt;/b&gt;&lt;br&gt;</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/control_box/controlbox.cpp" line="1839"/>
@@ -3335,13 +3335,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="43"/>
         <source>connman system tray</source>
         <comment>Main Window Title</comment>
-        <translation>ConnMan System Tray - Bandeja do Sistema do ConnMan</translation>
+        <translation>ConnMan System Tray - Gerenciador de Conexões de Rede da Bandeja do Sistema</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="44"/>
         <source>cmst</source>
         <comment>Abbreviated Program Name - used for QMessageBox titles</comment>
-        <translation>cmst</translation>
+        <translation>CMST</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="47"/>
@@ -3353,73 +3353,73 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="48"/>
         <source>association</source>
         <comment>connman state string</comment>
-        <translation>associação</translation>
+        <translation>Associação</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="49"/>
         <source>configuration</source>
         <comment>connman state string</comment>
-        <translation>configurações</translation>
+        <translation>Configurações</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="50"/>
         <source>ready</source>
         <comment>connman state string</comment>
-        <translation>pronto</translation>
+        <translation>Pronto</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="51"/>
         <source>online</source>
         <comment>connman state string</comment>
-        <translation>conectado</translation>
+        <translation>Conectado</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="52"/>
         <source>disconnect</source>
         <comment>connman state string</comment>
-        <translation>desconectar</translation>
+        <translation>Desconectar</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="53"/>
         <source>failure</source>
         <comment>connman state string</comment>
-        <translation>falha</translation>
+        <translation>Falha</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="54"/>
         <source>offline</source>
         <comment>connman state string</comment>
-        <translation>desconectado</translation>
+        <translation>Desconectado</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="56"/>
         <source>system</source>
         <comment>connman type string</comment>
-        <translation>sistema</translation>
+        <translation>Sistema</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="57"/>
         <source>ethernet</source>
         <comment>connman type string</comment>
-        <translation>ethernet</translation>
+        <translation>Com Fio</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="58"/>
         <source>wifi</source>
         <comment>connman type string</comment>
-        <translation>sem fio</translation>
+        <translation>Sem Fio</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="59"/>
         <source>bluetooth</source>
         <comment>connman type string</comment>
-        <translation>bluetooth</translation>
+        <translation>Bluetooth</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="60"/>
         <source>cellular</source>
         <comment>connman type string</comment>
-        <translation>celular</translation>
+        <translation>Celular</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="61"/>
@@ -3437,7 +3437,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="63"/>
         <source>gadget</source>
         <comment>connman type string</comment>
-        <translation>gadget</translation>
+        <translation>Dispositivos</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="64"/>
@@ -3449,25 +3449,25 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="65"/>
         <source>wired</source>
         <comment>connman type string</comment>
-        <translation>com fio</translation>
+        <translation>Com Fio</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="67"/>
         <source>direct</source>
         <comment>connman proxy string</comment>
-        <translation>direto</translation>
+        <translation>Direto</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="68"/>
         <source>manual</source>
         <comment>connman proxy string</comment>
-        <translation>manual</translation>
+        <translation>Manual</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="69"/>
         <source>auto</source>
         <comment>connman proxy string</comment>
-        <translation>automático</translation>
+        <translation>Automático</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="71"/>
@@ -3479,13 +3479,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="72"/>
         <source>ieee8021x</source>
         <comment>connman security string</comment>
-        <translation>ieee8021x</translation>
+        <translation>IEEE8021X</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="73"/>
         <source>none</source>
         <comment>connman security string</comment>
-        <translation>nenhum</translation>
+        <translation>Nenhum</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/trstring/tr_strings.cpp" line="74"/>
@@ -4151,7 +4151,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="265"/>
         <source>Disable Keep Alive</source>
-        <translation>Desativar a Opção Mantenha Vivo</translation>
+        <translation>Desativar a Opção Manter Vivo</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="272"/>
@@ -4198,7 +4198,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="1113"/>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="1172"/>
         <source>none specified</source>
-        <translation>não especificado</translation>
+        <translation>Não foi especificado</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="312"/>
@@ -4363,17 +4363,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="574"/>
         <source>adaptive</source>
-        <translation>adaptativo</translation>
+        <translation>Adaptativo</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="579"/>
         <source>yes</source>
-        <translation>sim</translation>
+        <translation>Sim</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="584"/>
         <source>no</source>
-        <translation>não</translation>
+        <translation>Não</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="592"/>
@@ -4467,13 +4467,13 @@ p, li { white-space: pre-wrap; }
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="796"/>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="978"/>
         <source>server</source>
-        <translation>servidor</translation>
+        <translation>Servidor</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="718"/>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="791"/>
         <source>client</source>
-        <translation>cliente</translation>
+        <translation>Cliente</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="726"/>
@@ -4606,12 +4606,12 @@ O padrão é: Cisco Systems VPN Client 0.5.3:Linux
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="933"/>
         <source>cert</source>
-        <translation>Cert</translation>
+        <translation>Certificado</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="938"/>
         <source>hybrid</source>
-        <translation>Hybrid</translation>
+        <translation>Híbrido</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="946"/>
@@ -4745,7 +4745,7 @@ O padrão é: Cisco Systems VPN Client 0.5.3:Linux
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="1168"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Mode of TUN/TAP interface:&lt;/p&gt;&lt;p&gt;tun: virtual point to point interface (default) &lt;/p&gt;&lt;p&gt;tap: virtual ethernet interface&lt;/p&gt;&lt;p&gt;Default: tun&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Modo de interface TUN/TAP:&lt;/p&gt;&lt;p&gt;tun: é a interface virtual ponto a ponto (padrão) &lt;/p&gt;&lt;p&gt;tap: é a interface ethernet virtual&lt;/p&gt;&lt;p&gt;O padrão é tun&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Modo de interface TUN/TAP:&lt;/p&gt;&lt;p&gt;tun: é a interface virtual ponto a ponto (padrão) &lt;/p&gt;&lt;p&gt;tap: é a interface de rede com fio (ethernet) virtual&lt;/p&gt;&lt;p&gt;O padrão é tun&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/vpn_create/ui/vpn_create.ui" line="1190"/>
@@ -6468,7 +6468,7 @@ está mais conectado.</translation>
     <message>
         <location filename="../apps/cmstapp/code/main.cpp" line="82"/>
         <source>Connman System Tray.</source>
-        <translation>ConnMan System Tray - Bandeja do Sistema do ConnMan.</translation>
+        <translation>ConnMan System Tray - Gerenciador de Conexões de Rede da Bandeja do Sistema.</translation>
     </message>
     <message>
         <location filename="../apps/cmstapp/code/main.cpp" line="93"/>
